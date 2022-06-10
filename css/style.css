@@ -27,6 +27,7 @@ ul li {
     display: inline-block;
     margin-top: 50px auto;
     margin-bottom: 50px auto;
+    
 
 
     grid-area: navbar;
@@ -50,6 +51,24 @@ ul li {
 
 }
 
+.nav-item a:hover {
+color: rgb(0, 0, 0);
+}
+
+.bg-propio {
+    text-decoration: none;
+    font-size: 75px;
+    font-family: 'Koulen', cursive;
+    color: black;
+    height: 65%;
+    background-color: rgb(180, 4, 207);
+    position: sticky;
+    
+
+    
+
+
+}
 nav ul li a {
     text-decoration: none;
     font-size: 20px;
@@ -171,7 +190,7 @@ form {
     nav ul li a{
         background-color: rgb(180, 4, 207);
     }.contenedor-texto{
-        width: 50%;
+        width: 100%;
     }
 }
 
