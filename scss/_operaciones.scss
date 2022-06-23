@@ -1,0 +1,31 @@
+$ancho:600px;
+$blueviolet:blueviolet;
+$black:black;
+
+
+.img-novedades {
+
+width: $ancho/2;
+background-color: $black;
+
+}
+
+form{
+
+width: $ancho/6;
+
+}
+
+
+
+$redes: (
+
+
+
+);
+
+@each $blueviolet in $redes {
+    
+
+
+}
