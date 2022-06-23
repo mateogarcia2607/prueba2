@@ -157,15 +157,21 @@ form {
 }
 
 .buzoArquero {
-  margin-left: 100px;
+  margin-left: 50px;
   width: 300px;
   border: 5px solid blueviolet;
 }
 
 .camisetaBlanca {
-  margin-left: 300px;
+  margin-left: 30px;
   width: 500px;
   border: 5px solid blueviolet;
+}
+
+.shorts {
+  width: 30%;
+  border: 5px solid blueviolet;
+  margin-left:30px ;
 }
 
 .imagenesNovedades {
@@ -208,21 +214,30 @@ form {
   font-family: koulen;
   font-size: 20px;
   margin-bottom: 30px;
-  margin-top: 0px;
+  margin-top: 15px;
+  margin-left: 5px;
 }
 
 .formulario-p1 {
+  font-family: koulen;
   margin-top: 10px;
   margin-left: 0%;
   background-color: black;
   margin: 30%;
+  display: grid;
   grid-column: formulario-p1;
+  border-bottom: 5px dashed blueviolet;
+
 }
 
 .formulario-p2 {
   background-color: black;
   margin: 30%;
   grid-column: formulario-p2;
+  font-family: koulen;
+  border-bottom: 5px dashed blueviolet;
+
+
 }
 
 .formulario-p3 {
@@ -230,11 +245,16 @@ form {
   background-color: black;
   margin: 30%;
   grid-column: formulario-p3;
+  font-family: koulen;
+  border-bottom: 5px dashed blueviolet;
+
+
 }
 
-.imgPlantel {
-  width: 100%;
-  margin: 0%;
+.imgPlantel, .imgPlantel2 {
+  width: 90%;
+  margin: 5px;
+  margin-left: 35px;
   border: 5px solid blueviolet;
   align-items: center right;
   color: blueviolet;
@@ -281,6 +301,11 @@ form {
   margin-left: 5%;
 }
 
+
+
+
+
+
 @media screen and (min-width: 780px) and (max-width: 1300px) {
   nav ul li a {
     background-color: blueviolet;
@@ -308,23 +333,30 @@ form {
     width: 100%;
   }
   .buzoArquero {
-    margin-left: 10%;
-    width: 300px;
+    margin-left: 50px;
+    width: 600px;
+    height: 500px;
     border: 5px solid blueviolet;
     margin-bottom: 10px;
   }
   .camisetaBlanca {
-    margin-left: 10%;
-    width: 300px;
+    margin-left: 50px;
+    width: 600px;
     border: 5px solid blueviolet;
+  }
+  .shorts {
+    width: 600px;
+    margin-top:10px ;
+    border: 5px solid blueviolet;
+    margin-left:50px ;
   }
   .imagenesNovedades {
     width: 100%;
-    padding: 100px;
+    margin-bottom: 10px;
     background-color: black;
   }
   .img-novedades {
-    width: 300px;
+    width: 100%;
     margin: 0%;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -334,9 +366,9 @@ form {
     background-color: black;
   }
   .img-novedades-1 {
-    width: 200px;
+    width: 100%;
     margin: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-bottom: 15px;
     border: 5px solid blueviolet;
     position: center;
@@ -345,13 +377,21 @@ form {
     background-color: black;
   }
   .imagen-novedades-equipo2 {
-    width: 300px;
+    width: 100%;
     margin: 0%;
+    margin-left: 10px;
     border: 5px solid blueviolet;
     align-items: center right;
     color: blueviolet;
     background-color: black;
   }
+  .texto-novedades {
+    font-family: koulen;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  
 }
 
 @media screen and (max-width: 480px) {
@@ -414,7 +454,7 @@ form {
     background-color: black;
   }
   .imagen-novedades-equipo2 {
-    width: 300px;
+    width: 100%;
     margin: 0%;
     border: 5px solid blueviolet;
     align-items: center right;
