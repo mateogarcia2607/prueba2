@@ -1,209 +1,400 @@
-@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
 * {
-    margin: 0%;
-    padding: 0%;
-    font-family: 'https://fonts.googleapis.com/css2?family=Koulen&display=swap', sans-serif;
+  margin: 0%;
+  padding: 0%;
+  font-family: 'https://fonts.googleapis.com/css2?family=Koulen&display=swap', sans-serif;
 }
 
 #body {
-    color: blueviolet;
-    width: auto;
-    background-color: black;
-    overflow: hidden;
-
+  color: blueviolet;
+  width: auto;
+  background-color: black;
 }
 
-body {
-
-    font-size: small;
-    border: 20px, solid, rgb(0, 0, 0);
-    text-align: center;
-    box-shadow: -1px;
+#body body {
+  font-size: small;
+  border: 20px, solid, black;
+  text-align: center;
+  box-shadow: -1px;
 }
 
 ul li {
-    display: inline-block;
-    margin-top: 50px auto;
-    margin-bottom: 50px auto;
+  display: inline-block;
+  margin-top: 50px auto;
+  margin-bottom: 50px auto;
 }
 
 .fondo-del-gordo {
-    width: 100%;
-    margin-top: 10px;
-    margin-left: 25%;
-    margin-right: 25%;
-
-    background-color: black;
-
-
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: black;
 }
 
 .textoFoto1 {
-    color: blueviolet;
-    border: 2, 5px;
-    font-family: 'Koulen', cursive;
-    margin-left: 10px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
-    text-align: center;
-    background-color: black;
+  color: blueviolet;
+  border: 2, 5px;
+  font-family: 'Koulen', cursive;
+  margin-left: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  background-color: black;
 }
 
 .img-encabezado {
-    display: inline;
-    width: 50%;
-    margin: 0%;
-    margin-bottom: 15px;
-    border: 5px solid blueviolet;
-    align-items: center;
-    color: blueviolet;
-
-    background-color: black;
-
+  display: inline;
+  width: 50%;
+  margin: 0%;
+  margin-bottom: 15px;
+  border: 5px solid blueviolet;
+  align-items: center;
+  color: blueviolet;
+  background-color: black;
 }
 
 .imagen-encabezado2 {
-    display: inline;
-    width: 50%;
+  display: inline;
+  width: 50%;
+  margin: 0%;
+  border: 5px solid blueviolet;
+  align-items: center right;
+  color: blueviolet;
+  background-color: black;
+}
+
+.nav-item a:hover {
+  color: black;
+}
+
+.bg-propio {
+  text-decoration: none;
+  font-size: 75px;
+  font-family: 'Koulen', cursive;
+  color: black;
+  height: 65%;
+  background-color: blueviolet;
+  position: sticky;
+  margin-bottom: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Koulen', cursive;
+  color: black;
+  margin: 10px;
+  height: 100px;
+}
+
+.titulo-principal {
+  color: black;
+  font-weight: bolder;
+  font-family: 'Koulen', cursive;
+  text-align: center;
+  color: blueviolet;
+  margin-top: 10px;
+  background-color: black;
+}
+
+.pie-de-pagina {
+  background-color: blueviolet;
+  color: black;
+  display: grid;
+  grid-template-areas: "redes-sociales"
+ "descripcion-wakanda";
+  justify-content: center;
+  grid-gap: 2rem;
+  margin-top: 10px;
+}
+
+.pie-de-pagina p {
+  font-size: xx-large;
+  font-weight: 400;
+  text-align: center;
+  grid-area: redes-sociales;
+  color: honeydew;
+  width: 50%;
+  height: 50px;
+  margin-left: 10%;
+}
+
+.redes a {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  grid-area: descripcion-wakanda;
+  font-family: koulen;
+  font-size: 20px;
+  width: 10% auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.contenedor-texto {
+  display: inline-block;
+  color: black;
+  font-family: koulen;
+  text-align: center;
+  color: blueviolet;
+  margin-bottom: 15px;
+  background-color: black;
+  margin-left: auto 50px;
+  width: 100%;
+  font-size: 20px;
+}
+
+form {
+  background-color: black;
+  margin-left: 10px;
+  width: 100px;
+  font-family: koulen;
+  display: grid;
+  grid-template-columns: formulario-p1 formulario-p2 formulario-p3;
+}
+
+.buzoArquero {
+  margin-left: 100px;
+  width: 300px;
+  border: 5px solid blueviolet;
+}
+
+.camisetaBlanca {
+  margin-left: 300px;
+  width: 500px;
+  border: 5px solid blueviolet;
+}
+
+.imagenesNovedades {
+  width: 100%;
+  padding: 100px;
+  background-color: black;
+}
+
+.img-novedades {
+  width: 300px;
+  margin: 0%;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  border: 5px solid blueviolet;
+  align-items: center;
+  color: blueviolet;
+  background-color: black;
+}
+
+.img-novedades-1 {
+  width: 400px;
+  margin: 25px;
+  margin-bottom: 5px;
+  border: 5px solid blueviolet;
+  align-items: center;
+  color: blueviolet;
+  background-color: black;
+}
+
+.imagen-novedades-equipo2 {
+  width: 300px;
+  margin: 0%;
+  border: 5px solid blueviolet;
+  align-items: center right;
+  color: blueviolet;
+  background-color: black;
+}
+
+.texto-novedades {
+  font-family: koulen;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.formulario-p1 {
+  margin-top: 10px;
+  margin-left: 0%;
+  background-color: black;
+  margin: 30%;
+  grid-column: formulario-p1;
+}
+
+.formulario-p2 {
+  background-color: black;
+  margin: 30%;
+  grid-column: formulario-p2;
+}
+
+.formulario-p3 {
+  text-align: left;
+  background-color: black;
+  margin: 30%;
+  grid-column: formulario-p3;
+}
+
+.imgPlantel {
+  width: 100%;
+  margin: 0%;
+  border: 5px solid blueviolet;
+  align-items: center right;
+  color: blueviolet;
+  background-color: black;
+}
+
+.videos {
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column 1fr 1fr;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.videos .videos1 {
+  border: solid 5px blueviolet;
+  margin-left: 5%;
+}
+
+.videos .videos2 {
+  border: solid 5px blueviolet;
+  margin-left: 5%;
+}
+
+.videos .videos3 {
+  border: solid 5px blueviolet;
+  margin-left: 5%;
+}
+
+.videos .videos4 {
+  border: solid 5px blueviolet;
+  margin-left: 5%;
+}
+
+.videos .videos5 {
+  border: solid 5px blueviolet;
+  margin-left: 5%;
+}
+
+.videos .videos6 {
+  border: solid 5px blueviolet;
+  margin-left: 5%;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1300px) {
+  nav ul li a {
+    background-color: blueviolet;
+  }
+  .contenedor-texto {
+    width: 100%;
+  }
+  .buzoArquero {
+    margin-left: 10%;
+    width: 300px;
+    border: 5px solid blueviolet;
+  }
+  .camisetaBlanca {
+    margin-left: 10%;
+    width: 300px;
+    border: 5px solid blueviolet;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  nav ul li a {
+    background-color: blueviolet;
+  }
+  .contenedor-texto {
+    width: 100%;
+  }
+  .buzoArquero {
+    margin-left: 10%;
+    width: 300px;
+    border: 5px solid blueviolet;
+    margin-bottom: 10px;
+  }
+  .camisetaBlanca {
+    margin-left: 10%;
+    width: 300px;
+    border: 5px solid blueviolet;
+  }
+  .imagenesNovedades {
+    width: 100%;
+    padding: 100px;
+    background-color: black;
+  }
+  .img-novedades {
+    width: 300px;
+    margin: 0%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 5px solid blueviolet;
+    align-items: center;
+    color: blueviolet;
+    background-color: black;
+  }
+  .img-novedades-1 {
+    width: 200px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    border: 5px solid blueviolet;
+    position: center;
+    align-items: center;
+    color: blueviolet;
+    background-color: black;
+  }
+  .imagen-novedades-equipo2 {
+    width: 300px;
     margin: 0%;
     border: 5px solid blueviolet;
     align-items: center right;
     color: blueviolet;
-
     background-color: black;
-
+  }
 }
 
-.nav-item a:hover {
-    color: rgb(0, 0, 0);
-}
-
-.bg-propio {
-    text-decoration: none;
-    font-size: 75px;
-    font-family: 'Koulen', cursive;
-    color: black;
-    height: 65%;
+@media screen and (max-width: 480px) {
+  nav ul li a {
+    height: 80px;
+  }
+  .bg-propio {
     background-color: blueviolet;
-    position: sticky;
-    margin-bottom: 10px;
-
-
-
-
-
-}
-
-nav ul li a {
-    text-decoration: none;
-    font-size: 20px;
-    font-family: 'Koulen', cursive;
+  }
+  .pie-de-pagina {
+    background-color: magenta;
+    width: 100%;
+  }
+  .titulo-principal {
     color: black;
-    margin: 10px;
-    height: 100px;
-
-
-}
-
-.titulo-principal {
-    color: rgb(0, 0, 0);
     font-weight: bolder;
     font-family: 'Koulen', cursive;
     text-align: center;
     color: blueviolet;
-    margin-top: 10px;
+    margin: 10px;
     background-color: black;
-
-}
-
-.pie-de-pagina {
+  }
+  .pie-de-pagina {
     background-color: blueviolet;
-    color: rgb(0, 0, 0);
+    color: black;
     display: grid;
     grid-template-areas: "redes-sociales"
-        "descripcion-wakanda";
+ "descripcion-wakanda";
     justify-content: center;
     grid-gap: 2rem;
-    margin-top: 10px;
-
-}
-
-.pie-de-pagina p {
-    font-size: xx-large;
-    font-weight: 400;
-    text-align: center;
-    grid-area: redes-sociales;
-    color: rgb(240, 255, 240);
-    width: 50%;
-    height: 50px;
+  }
+  .buzoArquero {
     margin-left: 10%;
-
-}
-
-.redes a {
-    display: flex;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    grid-area: descripcion-wakanda;
-    font-family: koulen;
-    font-size: 20px;
-    width: 10% auto;
-margin-top: 20px;
-margin-bottom: 10px;
-
-}
-
-.contenedor-texto {
-
-    display: inline-block;
-    color: black;
-    font-family: koulen;
-    text-align: center;
-    color: blueviolet;
-    margin-bottom: 15px;
-    background-color: black;
-    margin-left: auto 50px;
-    width: 100%;
-    font-size: 20px;
-
-
-}
-
-form {
-    background-color: rgb(0, 0, 0);
-    margin-left: 10px;
-    width: 100px;
-    font-family: koulen;
-    display: grid;
-    grid-template-columns: formulario-p1 formulario-p2 formulario-p3;
-
-}
-
-.buzoArquero {
-    margin-left: 100px;
     width: 300px;
     border: 5px solid blueviolet;
-}
-
-.camisetaBlanca {
-    margin-left: 300px;
-    width: 500px;
+    margin-bottom: 10px;
+  }
+  .camisetaBlanca {
+    margin-left: 10%;
+    width: 300px;
     border: 5px solid blueviolet;
-}
-
-.imagenesNovedades {
-    width: 100%;
-    padding: 100px;
-
-    background-color: black;
-}
-
-.img-novedades {
+  }
+  .img-novedades {
     width: 300px;
     margin: 0%;
     margin-left: 10px;
@@ -211,222 +402,23 @@ form {
     border: 5px solid blueviolet;
     align-items: center;
     color: blueviolet;
-
     background-color: black;
-
-}
-
-.img-novedades-1 {
+  }
+  .img-novedades-1 {
     width: 400px;
     margin: 25px;
     margin-bottom: 5px;
     border: 5px solid blueviolet;
     align-items: center;
     color: blueviolet;
-
     background-color: black;
-
-}
-
-.imagen-novedades-equipo2 {
+  }
+  .imagen-novedades-equipo2 {
     width: 300px;
     margin: 0%;
     border: 5px solid blueviolet;
     align-items: center right;
     color: blueviolet;
-
     background-color: black;
-
-}
-
-.texto-novedades {
-    font-family: koulen;
-    font-size: 20px;
-    margin-bottom: 30px;
-    margin-top: 0px;
-}
-
-
-.formulario-p1 {
-    margin-top: 10px;
-    margin-left: 0%;
-    background-color: rgb(0, 0, 0);
-    margin: 30%;
-    grid-column: formulario-p1;
-
-}
-
-.formulario-p2 {
-    background-color: rgb(0, 0, 0);
-    margin: 30%;
-    grid-column: formulario-p2;
-
-}
-
-.formulario-p3 {
-    text-align: left;
-    background-color: rgb(0, 0, 0);
-    margin: 30%;
-    grid-column: formulario-p3;
-
-}
-
-.imgPlantel {
-    width: 100%;
-    margin: 0%;
-    border: 5px solid blueviolet;
-    align-items: center right;
-    color: blueviolet;
-
-    background-color: black;
-}
-
-.videos {
-    width: 100%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    display: flex;
-    flex-direction: column 1fr 1fr;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.videos1 {
-    border: solid 5px blueviolet;
-    margin-left: 5%;
-}
-
-.videos2 {
-    border: solid 5px blueviolet;
-    margin-left: 5%;
-
-}
-
-.videos3 {
-    border: solid 5px blueviolet;
-    margin-left: 5%;
-
-}
-
-.videos4 {
-    border: solid 5px blueviolet;
-    margin-left: 5%;
-
-}
-
-.videos5 {
-    border: solid 5px blueviolet;
-    margin-left: 5%;
-
-}
-
-.videos6 {
-
-    border: solid 5px blueviolet;
-    margin-left: 5%;
-
-
-}
-
-
-
-
-@media screen and (min-width:780px) and (max-width: 1300px) {
-
-    nav ul li a {
-        background-color: blueviolet;
-    }
-
-    .contenedor-texto {
-        width: 100%;
-    }
-
-    .buzoArquero {
-        margin-left: 10%;
-        width: 300px;
-        border: 5px solid blueviolet;
-    }
-
-    .camisetaBlanca {
-        margin-left: 10%;
-        width: 300px;
-        border: 5px solid blueviolet;
-    }
-}
-
-@media screen and (min-width:480px) and (max-width: 780px) {
-    nav ul li a {
-        background-color: blueviolet;
-    }
-
-    .contenedor-texto {
-        width: 100%;
-    }
-
-    .buzoArquero {
-        margin-left: 10%;
-        width: 300px;
-        border: 5px solid blueviolet;
-        margin-bottom: 10px;
-    }
-
-    .camisetaBlanca {
-        margin-left: 10%;
-        width: 300px;
-        border: 5px solid blueviolet;
-    }
-}
-
-@media screen and (max-width: 480px) {
-
-    nav ul li a {
-        height: 80px;
-    }
-
-    .bg-propio {
-        background-color: blueviolet;
-    }
-
-    .pie-de-pagina {
-
-        background-color: rgb(255, 0, 255);
-        width: 100%;
-    }
-
-    .titulo-principal {
-        color: rgb(0, 0, 0);
-        font-weight: bolder;
-        font-family: 'Koulen', cursive;
-        text-align: center;
-        color: blueviolet;
-        margin-top: 10px;
-        background-color: black;
-
-    }
-
-    .pie-de-pagina {
-        background-color: blueviolet;
-        color: rgb(0, 0, 0);
-        display: grid;
-        grid-template-areas: "redes-sociales"
-            "descripcion-wakanda";
-        justify-content: center;
-        grid-gap: 2rem;
-
-    }
-
-    .buzoArquero {
-        margin-left: 10%;
-        width: 300px;
-        border: 5px solid blueviolet;
-        margin-bottom: 10px;
-
-    }
-
-    .camisetaBlanca {
-        margin-left: 10%;
-        width: 300px;
-        border: 5px solid blueviolet;
-    }
-
+  }
 }
