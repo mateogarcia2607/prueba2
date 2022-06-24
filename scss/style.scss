@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-
+@import "./operaciones";
 
 
 * {
@@ -9,7 +9,7 @@
 }
 
 #body {
-    color: rgb(21, 40, 19);
+    color: rgb(0, 0, 0);
     width: auto;
     background-color: black;
 
@@ -251,6 +251,7 @@ form {
 }
 
 
+
 .formulario-p1 {
     margin-top: 10px;
     margin-left: 0%;
@@ -302,53 +303,7 @@ form {
 
 
 
-.videos {
-    width: 100%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    display: flex;
-    flex-direction: column 1fr 1fr;
-    gap: 20px;
-    flex-wrap: wrap;
 
-
-    .videos1 {
-        border: solid 5px blueviolet;
-        margin-left: 5%;
-    }
-
-    .videos2 {
-        border: solid 5px blueviolet;
-        margin-left: 5%;
-
-    }
-
-    .videos3 {
-        border: solid 5px blueviolet;
-        margin-left: 5%;
-
-    }
-
-    .videos4 {
-        border: solid 5px blueviolet;
-        margin-left: 5%;
-
-    }
-
-    .videos5 {
-        border: solid 5px blueviolet;
-        margin-left: 5%;
-
-    }
-
-    .videos6 {
-
-        border: solid 5px blueviolet;
-        margin-left: 5%;
-
-
-    }
-}
 
 
 
@@ -477,6 +432,23 @@ form {
         align-items: center right;
         color: blueviolet;
         background-color: black;
+    }
+
+    .videos {
+        margin-left: 30px;
+        width:fit-content;
+
+    }
+
+    .imgPlantel {
+
+    margin-left: 30px;
+    }
+
+    .imgPlantel2 {
+
+margin-left: 170px;
+
     }
 
 

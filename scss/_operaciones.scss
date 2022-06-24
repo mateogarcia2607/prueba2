@@ -1,31 +1,81 @@
-$ancho:600px;
-$blueviolet:blueviolet;
-$black:black;
+$ancho: 600px;
+$white: #f4f4f4;
+$black: #040404;
+
 
 
 .img-novedades {
 
-width: $ancho/2;
-background-color: $black;
+    width: $ancho/2;
+    background-color: $black;
 
 }
 
-form{
+form {
 
-width: $ancho/6;
+    width: $ancho/6;
 
 }
 
+/*    maps     */
 
-
-$redes: (
+$forms: (
+    Enviarformulario: #f4f4f4,
+    Limpiarformulario: #040404,
 
 
 
 );
 
-@each $blueviolet in $redes {
-    
+@each $black,
+$color in $forms {
+    .formulario-#{$black} {
+        background-color: $color;
+    }
 
 
+}
+
+
+
+
+.videos1 {
+    border: solid 5px blueviolet;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.videos2 {
+    @extend .videos1;
+}
+
+.videos3 {
+    @extend .videos1;
+
+}
+
+.videos4 {
+    @extend .videos1;
+
+}
+
+.videos5 {
+    @extend .videos1;
+
+}
+
+.videos6 {
+    @extend .videos1;
+
+}
+
+/*  mixin  */
+
+@mixin size ($width){
+    width: $width;
+}
+
+.img-encabezado, .imagen-encabezado2 {
+    @include size(90%)
 }
